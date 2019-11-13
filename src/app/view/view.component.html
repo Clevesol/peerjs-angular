@@ -1,0 +1,19 @@
+<h1>{{clientId || 'attempting to connect'}}</h1>
+<div class="col-sm-12">
+
+	<div style="width: 100%; height: 100%" *ngIf="!call_connected">
+		<video style="width: inherit;" playsinline autoplay></video>
+	</div>
+
+	<button class="btn btn-primary">Go Online</button>
+
+  <div id="receiver" class="video">
+    
+
+    <div style="width: 240:px; height: auto" id="sender" class="col-sm-2">
+       
+
+    </div>
+  </div>
+
+</div>
